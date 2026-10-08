@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day-2 CSS</title>
+        <link rel="stylesheet" href="style.css">
+         </head>
+        <style>
+            h1{
+                color : blue;
+                text-align : center;
+                text-decoration: underline;
+            }
+             h2{
+                color : darkred;
+                text-align : center;
+                
+            }
+           
+            p{
+                color: purple;
+                font-size: 20px;
+                text-align: center;
+                background-color: lightyellow;
+                border: 2px solid black;
+            }
+            .card{
+                background-color: ivory;
+                border: 2px solid black;
+                padding: 30px 50px;
+                margin: 20px auto;
+                width: 400px;
+                border-radius: 30px;
+                box-shadow: 0 4px 10px gray;
+            }
+            .container{
+                
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                flex-wrap: wrap;
+                
+                align-items: center;
+                
+            }
+            .box{
+                border: 2px solid grey;
+                padding: 20px;
+                background-color: moccasin;
+                box-shadow: 0 2px 5px lightgoldenrodyellow;
+                
+            }
+            .box:hover{
+                background-color: lightskyblue;
+                transform: scale(1.05);
+            }
+            .section-title{
+                text-decoration: underline;
+            }
+        </style>
+   
+    <body> 
+        <h1>My Profile</h1>
+        <div class="card">       
+        <h2>Kothamekala Nikitha</h2>
+        <p>CSE Student</p>
+        <p>I am learning Web Development.</p>
+        </div> 
+         
+          <h2 class="section-title">My Skills</h2>
+        <div class="container">
+           
+            <div class="box">Java</div>
+            <div class="box">SQL</div>
+            <div class="box">HTML</div>
+            <div class="box">DSA</div>
+            <div class="box">CSS</div>
+            <div class="box">JavaScript</div>
+            <div class="box">React</div>
+            <div class="box">Python</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+ 
+            h1{
+                color : blue;
+                text-align : center;
+            }
+             h2{
+                color : saddlebrown;
+                text-align : center;
+            }
+            p{
+                color: purple;
+                font-size: 20px;
+                text-align: center;
+                background-color: lightyellow;
+                border: 2px solid black;
+            }
+            .card{
+                background-color: ivory;
+                border: 2px solid black;
+                padding: 30px 50px;
+                margin: 20px auto;
+                width: 400px;
+                border-radius: 30px;
+                box-shadow: 0 4px 10px gray;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                flex-wrap: wrap;
+                height: 300px;
+                align-items: center;
+                
+            }
+            .box{
+                border: 2px solid grey;
+                padding: 20px;
+                background-color: moccasin;
+                box-shadow: 0 2px 5px lightgoldenrodyellow;
+                border-radius: 10px;
+                font-size: 18px;
+                text-align: center;
+                
+            }
+            .box:hover{
+                background-color: lightskyblue;
+                transform: scale(1.05);
+            }
+            .section-title{
+                text-decoration: underline;
+            }
+      
+   
